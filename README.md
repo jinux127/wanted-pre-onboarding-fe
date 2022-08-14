@@ -1,4 +1,18 @@
-## 과제
+# 프로젝트 실행방법
+
+```
+cd client
+npm i
+npm start
+```
+
+# 데모
+
+![로그인](/client/public/login.png)
+![회원가입](/client/public/register.png)
+![투두](/client/public/demo1.png)
+
+# [배포 링크](https://wanted-pre-onboarding-fe-beta.vercel.app/)
 
 ---
 
