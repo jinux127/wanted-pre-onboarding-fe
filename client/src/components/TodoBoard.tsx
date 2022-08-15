@@ -19,10 +19,11 @@ const TodoBoard = ({ data, getTodos }: Props) => {
 const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
+
   border: 1px solid;
   height: 100%;
   width: 44.5rem;
-  overflow: scroll;
+  overflow: auto;
 `;
 
 export default TodoBoard;

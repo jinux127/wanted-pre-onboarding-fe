@@ -101,7 +101,7 @@ const StyledContainer = styled.div`
   display: flex;
   height: 5rem;
   margin: 0.2rem;
-  width: 44rem;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 `;
@@ -115,8 +115,9 @@ const StyledLabelDiv = styled.div<{ isCompleted: boolean }>`
   justify-content: center;
   transition: all 200ms linear;
   background-color: ${(props) => (props.isCompleted === true ? '#00ff00b5' : '#fffff')};
-
+  overflow-x: auto;
   cursor: pointer;
+
   :hover {
     background-color: rgba(0, 0, 0, 0.1);
   }
