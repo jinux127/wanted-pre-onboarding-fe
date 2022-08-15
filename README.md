@@ -16,6 +16,14 @@ npm start
 
 ---
 
+### 사용한 라이브러리
+
+- React Router
+- axios
+- Styled Components
+
+---
+
 ### :: 1. 로그인 / 회원가입
 
 - [x] `/` 경로에 로그인 / 회원가입 기능을 개발해주세요
