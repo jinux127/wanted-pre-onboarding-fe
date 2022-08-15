@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import TodoForm from '../components/form/TodoForm';
-import TodoBoard from '../components/TodoBoard';
+import TodoBoard from '../components/todo/TodoBoard';
 import useTodo from '../hooks/useTodos';
 
 const TodoPage = () => {

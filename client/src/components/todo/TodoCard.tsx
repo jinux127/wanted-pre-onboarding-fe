@@ -1,10 +1,10 @@
 import { MouseEvent, useEffect, useState } from 'react';
 import styled from 'styled-components';
-import * as todoApi from '../apis/todoApi';
-import { ITodo } from '../types/todo';
-import { Button } from './button';
-import Input from './input/Input';
-import Label from './label/Label';
+import * as todoApi from '../../apis/todoApi';
+import { ITodo } from '../../types/todo';
+import { Button } from '../button';
+import Input from '../input/Input';
+import Label from '../label/Label';
 
 interface Props {
   data: ITodo;

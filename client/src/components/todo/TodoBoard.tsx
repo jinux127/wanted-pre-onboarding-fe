@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import useTodo from '../hooks/useTodos';
-import { ITodo } from '../types/todo';
+import useTodo from '../../hooks/useTodos';
+import { ITodo } from '../../types/todo';
 
 import TodoCard from './TodoCard';
 interface Props {
