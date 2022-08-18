@@ -5,7 +5,7 @@ import useTodo from '../hooks/useTodos';
 
 const TodoPage = () => {
   const { data, setData, getTodos } = useTodo();
-  console.log(data);
+
   return (
     <StyledContainer>
       {/* <LoginForm /> */}

@@ -15,6 +15,7 @@ const TodoCard = ({ data, getTodos }: Props) => {
   const [isModify, setIsModify] = useState(false);
   const [todo, setTodo] = useState(data.todo);
   const [isCompleted, setIsCompleted] = useState(data.isCompleted);
+
   const handleComplete = async () => {
     (() => setIsCompleted((cur) => !cur))();
     try {
